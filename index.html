@@ -2,9 +2,20 @@
 <html lang="uk">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ремонт кермових рейок у Львові з гарантією від 6 місяців | Rest Avto</title>
-<meta name="description" content="Ремонт і реставрація кермових рейок у Львові: механічні, гідравлічні, електричні рейки, насоси ЕГПК. Безкоштовна діагностика, ремонт у день звернення, гарантія від 6 місяців. СТО Rest Avto, вул. Грунтова, 1б.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ремонт кермових рейок у Львові з гарантією | Rest Avto</title>
+<meta name="description" content="Ремонт кермових рейок і насосів ЕГПК у Львові. Безкоштовна діагностика, більшість ремонтів за 1 день, гарантія від 6 місяців. СТО Rest Avto, вул. Грунтова, 1б.">
+<link rel="canonical" href="https://krasprod.github.io/restavto-reyki/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="uk_UA">
+<meta property="og:site_name" content="Rest Avto">
+<meta property="og:title" content="Ремонт кермових рейок у Львові з гарантією від 6 місяців">
+<meta property="og:description" content="Діагностика, зняття, реставрація і встановлення на одному сервісі. Ремонт механічних, гідравлічних та електричних рейок. Львів, вул. Грунтова, 1б.">
+<meta property="og:url" content="https://krasprod.github.io/restavto-reyki/">
+<meta property="og:image" content="https://krasprod.github.io/restavto-reyki/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +23,7 @@
 <style>
 :root{
   --green:#45c329; --green-dark:#33a41c; --green-soft:#eaf8e4; --green-line:#c9ecbf;
-  --ink:#0f1a13; --text:#26312a; --muted:#66736b; --line:#e4e9e5;
+  --ink:#0f1a13; --green-text:#257212; --text:#26312a; --muted:#66736b; --line:#e4e9e5;
   --bg:#ffffff; --bg2:#f4f7f4; --dark:#0e1f14; --dark2:#132a1b;
   --r:18px; --r-sm:12px; --shadow:0 10px 30px rgba(15,26,19,.08);
   --font-h:"Manrope","Inter",system-ui,sans-serif; --font-b:"Inter",system-ui,sans-serif;
@@ -28,15 +39,15 @@ h2{font-size:clamp(28px,3.4vw,40px);font-weight:800}
 h3{font-size:20px;font-weight:700}
 p{margin:0}
 .wrap{width:min(1180px,calc(100% - 40px));margin:0 auto}
-section{padding:88px 0}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 13px/1 var(--font-b);letter-spacing:.08em;text-transform:uppercase;color:var(--green-dark);margin-bottom:16px}
+section{padding:88px 0;scroll-margin-top:90px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 13px/1 var(--font-b);letter-spacing:.08em;text-transform:uppercase;color:var(--green-text);margin-bottom:16px}
 .eyebrow::before{content:"";width:22px;height:3px;background:var(--green);border-radius:2px}
 .lead{font-size:18px;color:var(--muted);max-width:640px}
 .sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:44px;flex-wrap:wrap}
 .sec-head .lead{margin-top:14px}
 
 /* buttons */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font:600 16px/1 var(--font-b);border:2px solid transparent;cursor:pointer;transition:.18s;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font:600 16px/1.2 var(--font-b);border:2px solid transparent;cursor:pointer;transition:.18s;white-space:nowrap}
 .btn-primary{background:var(--green);color:#fff;border-color:var(--green)}
 .btn-primary:hover{background:var(--green-dark);border-color:var(--green-dark);transform:translateY(-1px)}
 .btn-outline{background:transparent;color:var(--ink);border-color:#cfd7d1}
@@ -54,12 +65,12 @@ section{padding:88px 0}
 .topbar span{display:inline-flex;align-items:center;gap:7px}
 .topbar svg{width:14px;height:14px;stroke:var(--green)}
 .topbar .right{display:flex;gap:22px}
-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);transition:box-shadow .2s}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);transition:box-shadow .2s}
 header.scrolled{box-shadow:0 6px 24px rgba(15,26,19,.08)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:24px}
 .logo img{height:46px;width:auto}
 nav.main{display:flex;gap:26px}
-nav.main a{font:500 15px var(--font-b);color:var(--text);position:relative;padding:6px 0}
+nav.main a{font:500 15px var(--font-b);color:var(--text);position:relative;padding:6px 0;white-space:nowrap}
 nav.main a:hover{color:var(--ink)}
 nav.main a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--green);transform:scaleX(0);transition:.2s;transform-origin:left}
 nav.main a:hover::after{transform:scaleX(1)}
@@ -71,7 +82,7 @@ nav.main a:hover::after{transform:scaleX(1)}
 .burger span{display:block;width:20px;height:2px;background:var(--ink);position:relative}
 .burger span::before,.burger span::after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--ink)}
 .burger span::before{top:-6px}.burger span::after{top:6px}
-.mobile-nav{display:none;position:fixed;inset:0;top:76px;background:#fff;z-index:49;padding:24px 20px;flex-direction:column;gap:6px}
+.mobile-nav{display:none;position:fixed;inset:0;top:76px;background:#fff;z-index:49;padding:24px 20px;flex-direction:column;gap:6px;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .mobile-nav.open{display:flex}
 .mobile-nav a{padding:14px 8px;font:600 18px var(--font-h);border-bottom:1px solid var(--line)}
 .mobile-nav .btn{margin-top:18px}
@@ -167,8 +178,8 @@ nav.main a:hover::after{transform:scaleX(1)}
 .step::before{counter-increment:step;content:"0" counter(step);font:800 40px var(--font-h);color:var(--green);opacity:.9;display:block;margin-bottom:14px;line-height:1}
 .step h3{font-size:17px;margin-bottom:8px}
 .step p{font-size:14px;color:var(--muted)}
-.steps-photo{margin-top:36px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.steps-photo img{border-radius:var(--r);height:300px;width:100%;object-fit:cover}
+.steps-photo{margin-top:36px;height:340px;border-radius:var(--r);overflow:hidden}
+.steps-photo img{width:150%;max-width:none;height:100%;object-fit:cover;object-position:right center;margin-left:-50%}
 
 /* why */
 .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
@@ -190,9 +201,22 @@ nav.main a:hover::after{transform:scaleX(1)}
 .work h3 span{font:600 12px var(--font-b);color:var(--muted);background:var(--bg2);padding:5px 10px;border-radius:999px}
 .work p{font-size:14.5px;color:var(--muted);margin-bottom:16px}
 .work .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
-.work .tags i{font:500 12px var(--font-b);font-style:normal;background:var(--green-soft);color:var(--green-dark);padding:5px 10px;border-radius:999px}
+.work .tags i{font:500 12px var(--font-b);font-style:normal;background:var(--green-soft);color:var(--green-text);padding:5px 10px;border-radius:999px}
 .work .meta{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:14px;font-size:14px;color:var(--muted)}
 .work .meta b{color:var(--ink);font:700 16px var(--font-h)}
+
+/* reviews */
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.review{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:14px}
+.review .stars{display:flex;gap:3px}
+.review .stars svg{width:18px;height:18px;fill:#f5b301}
+.review p{color:var(--text);font-size:15px;flex:1}
+.review .who{display:flex;justify-content:space-between;align-items:center;gap:10px;border-top:1px solid var(--line);padding-top:14px}
+.review .who b{font:700 15px var(--font-h);color:var(--ink)}
+.review .who span{font-size:13px;color:var(--muted)}
+.social{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.social a{display:inline-flex;align-items:center;gap:6px;font:600 14px var(--font-b);color:var(--green-dark);border:1px solid var(--green-line);background:var(--green-soft);padding:8px 12px;border-radius:999px}
+.social a:hover{background:var(--green);color:#fff;border-color:var(--green)}
 
 /* extra */
 .extra-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
@@ -202,9 +226,10 @@ nav.main a:hover::after{transform:scaleX(1)}
 .extra p{font-size:13.5px;color:var(--muted);margin-bottom:8px}
 .extra b{font:800 18px var(--font-h);color:var(--ink)}
 .extra b span{font:400 13px var(--font-b);color:var(--muted)}
+.extra .row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
 /* guarantee band */
-.guarantee{padding:0}
+.guarantee{padding:0;scroll-margin-top:96px}
 .guarantee .box{background:linear-gradient(120deg,var(--dark) 0%,var(--dark2) 100%);color:#fff;border-radius:28px;padding:56px;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center;position:relative;overflow:hidden}
 .guarantee .box::before{content:"";position:absolute;left:-80px;bottom:-140px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(69,195,41,.3),transparent 65%)}
 .guarantee h2{color:#fff;margin-bottom:14px}
@@ -236,6 +261,7 @@ nav.main a:hover::after{transform:scaleX(1)}
 .c-row .ic svg{width:22px;height:22px;stroke:var(--green-dark)}
 .c-row small{display:block;font-size:12.5px;color:var(--muted);margin-bottom:2px}
 .c-row b{font:700 17px var(--font-h);color:var(--ink);display:block}
+.c-row a{display:block;padding:3px 0}
 .c-row a b:hover{color:var(--green-dark)}
 .map{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);min-height:420px;background:#e8ede9}
 .map iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
@@ -251,24 +277,30 @@ footer a:hover{color:#fff}
 footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:22px;font-size:13px;flex-wrap:wrap}
 
 /* sticky mobile bar */
-.mbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 14px;gap:10px}
+.mbar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));gap:10px}
 .mbar .btn{flex:1}
 
 /* modal */
-.modal{position:fixed;inset:0;z-index:100;background:rgba(15,26,19,.55);display:none;align-items:center;justify-content:center;padding:20px}
+.modal{position:fixed;inset:0;z-index:100;background:rgba(15,26,19,.55);display:none;align-items:flex-start;justify-content:center;padding:20px;overflow-y:auto}
 .modal.open{display:flex}
-.modal .form{width:min(460px,100%);position:relative}
+.modal .form{width:min(460px,100%);position:relative;margin:auto}
 .modal .close{position:absolute;right:14px;top:14px;width:36px;height:36px;border-radius:50%;border:0;background:var(--bg2);cursor:pointer;font-size:20px;line-height:1}
 .modal .sub{font-size:14px;color:var(--muted);margin:-10px 0 18px}
 .modal h3{padding-right:44px}
 
+@media (max-width:1120px){
+  .hdr-phone{display:none}
+}
 @media (max-width:1024px){
+  .topbar{display:none}
+  .card-wide{grid-template-columns:auto 1fr auto}
+  .card-wide .btn{grid-column:2/4;justify-self:start}
   .hero .wrap{grid-template-columns:1fr;gap:40px}
   .hero-visual{max-width:640px}
   .bf1{left:8px;bottom:-16px}.bf2{right:8px;top:-16px}
   .grid-4,.why-grid{grid-template-columns:repeat(2,1fr)}
   .steps-grid{grid-template-columns:repeat(3,1fr)}
-  .works-grid,.extra-grid{grid-template-columns:repeat(2,1fr)}
+  .works-grid,.extra-grid,.reviews-grid{grid-template-columns:repeat(2,1fr)}
   .symptoms .box{grid-template-columns:1fr}
   .quote .box{grid-template-columns:1fr;padding:32px}
   .guarantee .box{grid-template-columns:1fr;padding:40px}
@@ -276,12 +308,10 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   footer .grid{grid-template-columns:1fr 1fr}
   nav.main{display:none}
   .burger{display:flex}
-  .hdr-phone{display:none}
 }
 @media (max-width:640px){
   section{padding:60px 0}
   .wrap{width:calc(100% - 32px)}
-  .topbar{display:none}
   header .wrap{height:66px}
   .mobile-nav{top:66px}
   .logo img{height:38px}
@@ -289,11 +319,12 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   .hero{padding:36px 0 56px}
   .hero-facts{grid-template-columns:repeat(2,1fr)}
   .hero-cta .btn{width:100%}
-  .grid-4,.why-grid,.steps-grid,.works-grid,.extra-grid,.steps-photo{grid-template-columns:1fr}
+  .grid-4,.why-grid,.steps-grid,.works-grid,.extra-grid,.reviews-grid{grid-template-columns:1fr}
+  .steps-photo{height:220px}
   .symptoms ul{grid-template-columns:1fr}
   .symptoms .box{padding:28px 22px}
   .card-wide{grid-template-columns:1fr;gap:14px}
-  .card-wide .btn{width:100%}
+  .card-wide .btn{grid-column:auto;width:100%}
   .guarantee .phones a{font-size:24px}
   .faq .a{padding-right:0}
   .mbar{display:flex}
@@ -301,7 +332,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   .btn{white-space:normal;text-align:center}
   .symptoms .box,.quote .box,.guarantee .box{padding:28px 20px}
   .symptoms .box>*,.quote .box>*,.guarantee .box>*,.hero .wrap>*{min-width:0}
-  body{padding-bottom:70px}
+  body{padding-bottom:calc(70px + env(safe-area-inset-bottom))}
   .badge-float{padding:10px 14px}
   .badge-float b{font-size:14px}
 }
@@ -312,6 +343,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   .fact b{font-size:18px}
 }
 </style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoRepair","name":"Rest Avto","url":"https://krasprod.github.io/restavto-reyki/","image":"https://krasprod.github.io/restavto-reyki/assets/img/og.jpg","telephone":["+380635282915","+380988996823"],"address":{"@type":"PostalAddress","streetAddress":"вул. Грунтова, 1б","addressLocality":"Львів","addressCountry":"UA"},"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"18:00"},"priceRange":"від 1200 ₴","sameAs":["https://www.facebook.com/restavtolviv","https://www.instagram.com/rest_avto_lviv/"]}</script>
 </head>
 <body>
 
@@ -335,6 +367,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
     <symbol id="i-card" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></symbol>
     <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
     <symbol id="i-star" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
+    <symbol id="i-star-fill" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z"/></symbol>
   </defs>
 </svg>
 
@@ -351,7 +384,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
 
 <header id="header">
   <div class="wrap">
-    <a class="logo" href="#top" aria-label="Rest Avto"><img src="assets/img/logo.png" alt="Rest Avto, реставрація автозапчастин"></a>
+    <a class="logo" href="#top" aria-label="Rest Avto"><img src="assets/img/logo.png" width="135" height="46" alt="Rest Avto, реставрація автозапчастин"></a>
     <nav class="main">
       <a href="#services">Послуги і ціни</a>
       <a href="#how">Як ми працюємо</a>
@@ -386,20 +419,20 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
       <h1>Ремонт кермових рейок у Львові <em>з гарантією від 6 місяців</em></h1>
       <p class="lead">Діагностика, зняття, реставрація і встановлення на одному сервісі. Ремонтуємо механічні, гідравлічні та електричні рейки і насоси ЕГПК. Ціну називаємо до початку робіт.</p>
       <div class="hero-cta">
-        <button class="btn btn-primary" data-open="Безкоштовна діагностика"><svg><use href="#i-check"/></svg>Безкоштовна діагностика</button>
+        <button class="btn btn-primary" data-open="Записатись на діагностику"><svg><use href="#i-check"/></svg>Записатись на безкоштовну діагностику</button>
         <a class="btn btn-outline" href="#quote">Дізнатися вартість</a>
       </div>
       <div class="hero-facts">
         <div class="fact"><b>від 2500 ₴</b><span>ремонт рейки</span></div>
         <div class="fact"><b>1 день</b><span>більшість ремонтів</span></div>
-        <div class="fact"><b>6+ міс</b><span>гарантія на роботи</span></div>
+        <div class="fact"><b>6+ місяців</b><span>гарантія на роботи і деталі</span></div>
         <div class="fact"><b>всі типи</b><span>рейок і виробників</span></div>
       </div>
     </div>
     <div class="hero-visual">
       <div class="photo"><img src="assets/img/kermova-reyka.png" alt="Розібрана електрична кермова рейка перед реставрацією"></div>
       <div class="badge-float bf1"><div class="ic"><svg><use href="#i-shield"/></svg></div><div><b>Гарантія від 6 місяців</b><span>на роботи і запчастини</span></div></div>
-      <div class="badge-float bf2"><div class="ic"><svg><use href="#i-bolt"/></svg></div><div><b>Ремонт у день звернення</b><span>власні підйомники і стенд</span></div></div>
+      <div class="badge-float bf2"><div class="ic"><svg><use href="#i-bolt"/></svg></div><div><b>Більшість ремонтів за 1 день</b><span>власні підйомники і стенд</span></div></div>
     </div>
   </div>
 </section>
@@ -410,16 +443,16 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
     <div class="box">
       <div>
         <h2>Кермо поводиться не так, як раніше?</h2>
-        <p>Хоча б один із цих симптомів означає, що рейку варто перевірити. Діагностика безкоштовна, якщо ремонт робите у нас.</p>
-        <button class="btn btn-primary" data-open="Безкоштовна діагностика">Записатись на перевірку</button>
+        <p>Хоча б один із цих симптомів означає, що рейку варто перевірити. Діагностика безкоштовна.</p>
+        <button class="btn btn-primary" data-open="Записатись на діагностику">Записатись на діагностику</button>
       </div>
       <ul>
         <li><i><svg><use href="#i-check"/></svg></i>Стук або люфт у кермі</li>
         <li><i><svg><use href="#i-check"/></svg></i>Кермо стало важким</li>
         <li><i><svg><use href="#i-check"/></svg></i>Сторонній шум при повороті</li>
-        <li><i><svg><use href="#i-check"/></svg></i>Протікання мастила під авто</li>
+        <li><i><svg><use href="#i-check"/></svg></i>Підтікання оливи під авто</li>
         <li><i><svg><use href="#i-check"/></svg></i>Авто тягне вбік, знижена керованість</li>
-        <li class="cta" data-open="Безкоштовна діагностика">Є симптом? Приїжджайте на діагностику</li>
+        <li><i><svg><use href="#i-check"/></svg></i>Вібрація або биття в кермі</li>
       </ul>
     </div>
   </div>
@@ -454,8 +487,8 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
       <div class="card">
         <div class="ic"><svg><use href="#i-cpu"/></svg></div>
         <h3>Ремонт електричної рейки</h3>
-        <p>Компʼютерна діагностика. Рихтування, балансування, шліфування і полірування штока, заміна втулок. Ремонт електрочастини, налаштування датчиків і двигуна.</p>
-        <div class="price"><b>від 3000 ₴</b><span>1–2 дні</span></div>
+        <p>Компʼютерна діагностика. Рихтування, балансування, шліфування і полірування штока, заміна втулок. Ремонт електрочастини, налаштування датчиків і електродвигуна.</p>
+        <div class="price"><b>від 3000 ₴</b><span>1 день</span></div>
         <button class="btn btn-primary btn-sm" data-open="Ремонт електричної рейки">Записатись</button>
       </div>
       <div class="card">
@@ -469,13 +502,13 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
     <div class="card-wide">
       <div class="ic"><svg><use href="#i-car"/></svg></div>
       <div>
-        <h3>Зняття та встановлення рейки на нашому СТО</h3>
-        <p>Знімаємо і ставимо будь-який елемент кермового керування на власних підйомниках, з дотриманням технології. Не треба шукати інше СТО для монтажу.</p>
+        <h3>Зняття та встановлення рейки на нашій СТО</h3>
+        <p>Знімаємо і ставимо будь-який елемент кермового керування на власних підйомниках, з дотриманням технології. Не треба шукати іншу СТО для монтажу.</p>
       </div>
-      <div class="price"><b>від 1500 ₴</b><span>2–3 год</span></div>
+      <div class="price"><b>від 1500 ₴</b><span>у день звернення</span></div>
       <button class="btn btn-primary btn-sm" data-open="Зняття та встановлення рейки">Записатись</button>
     </div>
-    <p class="note"><svg><use href="#i-info"/></svg>Діагностика безкоштовна за умови ремонту в нас. Можлива оплата частинами без відсотків.</p>
+    <p class="note"><svg><use href="#i-info"/></svg>Діагностика безкоштовна. Можлива оплата частинами без відсотків.</p>
   </div>
 </section>
 
@@ -484,26 +517,27 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   <div class="wrap">
     <div class="box">
       <div>
-        <div class="eyebrow">Вартість за 15 хвилин</div>
-        <h2>Надішліть VIN або фото стікера з рейки, і ми порахуємо ремонт</h2>
-        <p class="lead">Не треба нікуди їхати, щоб дізнатися ціну. По даних із рейки визначаємо тип і модель, перевіряємо наявність запчастин і називаємо вартість.</p>
+        <div class="eyebrow">Вартість без візиту на СТО</div>
+        <h2>Надішліть VIN або фото стікера з рейки, і ми порахуємо вартість ремонту</h2>
+        <p class="lead">Не треба нікуди їхати, щоб дізнатися ціну. За даними з рейки визначаємо тип і модель, перевіряємо наявність запчастин і називаємо вартість.</p>
         <ul>
           <li><svg><use href="#i-check"/></svg>Ремонтуємо рейки всіх типів і виробників</li>
-          <li><svg><use href="#i-check"/></svg>Відповідаємо в робочий час протягом 15 хвилин</li>
+          <li><svg><use href="#i-check"/></svg>Відповідаємо в робочий час, Пн–Сб з 9:00 до 18:00</li>
+          <li><svg><use href="#i-check"/></svg>Приймаємо рейки поштою з будь-якого міста України</li>
           <li><svg><use href="#i-check"/></svg>Ціна фіксується до початку робіт</li>
         </ul>
       </div>
       <div class="form" id="quote-form">
         <form>
           <h3>Дізнатися вартість ремонту</h3>
-          <div class="field"><label>VIN-код або дані зі стікера рейки</label><input type="text" placeholder="Напр. WVWZZZ1KZ... або марка і рік авто"></div>
-          <div class="field"><label>Ваш телефон</label><input type="tel" required placeholder="+380"></div>
-          <div class="field"><label>Що турбує (необовʼязково)</label><textarea placeholder="Стук на нерівностях, важке кермо, підтікання..."></textarea></div>
-          <label class="file"><svg><use href="#i-upload"/></svg><span>Додати фото стікера або рейки</span><input type="file" accept="image/*" multiple></label>
+          <div class="field"><label for="q-vin">VIN-код або дані зі стікера рейки</label><input id="q-vin" name="vin" type="text" placeholder="Напр. WVWZZZ1KZ... або марка і рік авто"></div>
+          <div class="field"><label for="q-phone">Ваш телефон</label><input id="q-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+380"></div>
+          <div class="field"><label for="q-note">Що турбує (необовʼязково)</label><textarea id="q-note" name="note" placeholder="Стук на нерівностях, важке кермо, підтікання..."></textarea></div>
+          <label class="file"><svg><use href="#i-upload"/></svg><span>Додати фото стікера або рейки</span><input type="file" name="files" accept="image/*" multiple></label>
           <button class="btn btn-primary" type="submit">Дізнатися вартість</button>
-          <small>Відповімо дзвінком або у Viber/Telegram, як вам зручніше.</small>
+          <small>Відповімо дзвінком або повідомленням, як вам зручніше.</small>
         </form>
-        <div class="ok"><svg><use href="#i-check"/></svg><h3>Дякуємо, заявку отримали</h3><p>Порахуємо і звʼяжемось з вами протягом 15 хвилин у робочий час.</p></div>
+        <div class="ok"><svg><use href="#i-check"/></svg><h3>Дякуємо, заявку отримали</h3><p>Порахуємо вартість і звʼяжемось з вами в робочий час.</p></div>
       </div>
     </div>
   </div>
@@ -518,17 +552,17 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
         <h2>Від діагностики до гарантії: усе на одному сервісі</h2>
         <p class="lead">Не передаємо рейки посередникам. Знімаємо, ремонтуємо і встановлюємо самі, тому відповідаємо за результат.</p>
       </div>
+      <button class="btn btn-outline" data-open="Записатись на діагностику">Записатись на діагностику</button>
     </div>
     <div class="steps-grid">
       <div class="step"><h3>Діагностика</h3><p>Огляд рейки і насоса на авто та на стенді: люфти, стук, герметичність шлангів і зʼєднань.</p></div>
       <div class="step"><h3>Зняття</h3><p>Демонтаж на власному підйомнику з дотриманням технології, без пошкодження суміжних вузлів.</p></div>
-      <div class="step"><h3>Дефектовка і ціна</h3><p>Розбираємо, показуємо повну картину пошкоджень і узгоджуємо вартість. Далі ціна не змінюється.</p></div>
+      <div class="step"><h3>Дефектування і ціна</h3><p>Розбираємо, показуємо повну картину пошкоджень і узгоджуємо вартість. Далі ціна не змінюється.</p></div>
       <div class="step"><h3>Реставрація</h3><p>Шліфування, гільзування, заміна зношених деталей на оригінальні. Перевірка на стенді.</p></div>
       <div class="step"><h3>Встановлення</h3><p>Ставимо рейку, перевіряємо кермування на авто і видаємо гарантію від 6 місяців.</p></div>
     </div>
     <div class="steps-photo">
-      <img src="assets/img/156.png" alt="Робота з кермовою рейкою на стенді">
-      <img src="assets/img/img_20230424_155336-1.png" alt="Автомобіль на підйомнику в цеху Rest Avto">
+      <img src="assets/img/159.png" alt="Майстер Rest Avto з відремонтованою кермовою рейкою">
     </div>
   </div>
 </section>
@@ -539,16 +573,16 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
     <div class="sec-head">
       <div>
         <div class="eyebrow">Чому Rest Avto</div>
-        <h2>Спеціалізуємось на кермовому керуванні, а не на всьому підряд</h2>
+        <h2>Спеціалізуємось на кермовому керуванні, а не беремось за все одразу</h2>
       </div>
     </div>
     <div class="why-grid">
       <div class="why"><div class="ic"><svg><use href="#i-shield"/></svg></div><h3>Гарантія від 6 місяців</h3><p>Офіційна розширена гарантія на виконані роботи і встановлені запчастини.</p></div>
-      <div class="why"><div class="ic"><svg><use href="#i-bolt"/></svg></div><h3>Ремонт у день звернення</h3><p>Більшість рейок віддаємо того ж дня. Починаємо роботу одразу після узгодження ціни.</p></div>
-      <div class="why"><div class="ic"><svg><use href="#i-gear"/></svg></div><h3>Оригінальні запчастини</h3><p>Власне спецобладнання і ремкомплекти від виробників, без китайських замінників.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-bolt"/></svg></div><h3>Більшість ремонтів за 1 день</h3><p>Рейки зазвичай віддаємо того ж дня. Починаємо роботу одразу після узгодження ціни.</p></div>
+      <div class="why"><div class="ic"><svg><use href="#i-gear"/></svg></div><h3>Оригінальні запчастини</h3><p>Власне спецобладнання і оригінальні ремкомплекти від виробників TRW і ZF.</p></div>
       <div class="why"><div class="ic"><svg><use href="#i-card"/></svg></div><h3>Оплата частинами без %</h3><p>Ремонтуємо в межах вашого бюджету, можна розбити оплату на частини.</p></div>
     </div>
-    <div class="brands"><span>Працюємо з запчастинами</span><img src="assets/img/172.png" alt="TRW"><img src="assets/img/171.png" alt="ZF Group"></div>
+    <div class="brands"><span>Працюємо із запчастинами</span><img src="assets/img/172.png" width="117" height="34" alt="TRW"><img src="assets/img/171.png" width="110" height="34" alt="ZF Group"></div>
   </div>
 </section>
 
@@ -559,9 +593,9 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
       <div>
         <div class="eyebrow">Останні роботи</div>
         <h2>Реальні авто з нашого цеху</h2>
-        <p class="lead">Що приїхало, що знайшли і скільки це коштувало. Без прикрас.</p>
+        <p class="lead">Що приїхало, що знайшли і скільки це коштувало. Ціни за весь описаний обсяг робіт.</p>
       </div>
-      <button class="btn btn-outline" data-open="Записатись на діагностику">Хочу так само</button>
+      <a class="btn btn-outline" href="#quote">Порахувати мій випадок</a>
     </div>
     <div class="works-grid">
       <div class="work">
@@ -579,7 +613,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
           <h3>Opel Astra <span>Львів</span></h3>
           <p>Підтікання з пильовиків. Рейку відреставрували: відшліфували вал, замінили пильовики і втулки стабілізатора, залили нову оливу.</p>
           <div class="tags"><i>Ремонт рейки</i><i>Втулки стабілізатора</i></div>
-          <div class="meta"><span>Вартість <b>9300 ₴</b></span><span>Термін <b>1 день</b></span></div>
+          <div class="meta"><span>Вартість <b>9 300 ₴</b></span><span>Термін <b>1 день</b></span></div>
         </div>
       </div>
       <div class="work">
@@ -588,10 +622,29 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
           <h3>Volvo <span>Львів</span></h3>
           <p>Стук на нерівностях. Виявили несправність рейки: відреставрували, замінили шток, залили нову оливу. Додатково замінили патрубок інтеркулера.</p>
           <div class="tags"><i>Ремонт рейки</i><i>Заміна штока</i></div>
-          <div class="meta"><span>Вартість <b>12500 ₴</b></span><span>Термін <b>1 день</b></span></div>
+          <div class="meta"><span>Вартість <b>12 500 ₴</b></span><span>Термін <b>1 день</b></span></div>
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">Відгуки</div>
+        <h2>Що кажуть клієнти Rest Avto</h2>
+      </div>
+      <a class="btn btn-outline" href="https://g.page/restavto?share" target="_blank" rel="noopener">Усі відгуки в Google</a>
+    </div>
+    <div class="reviews-grid">
+      <div class="review"><div class="stars"><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg></div><p>Купував у них кермову рейку на Mercedes 163. Хлопці дуже оперативно спрацювали, доставили швидко і жодних проблем, ось уже як 30 тисяч пробігу.</p><div class="who"><b>Андрій</b><span>Mercedes ML</span></div></div>
+      <div class="review"><div class="stars"><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg></div><p>Купував нову рульову рейку на Lexus LX, покупкою залишився задоволений, на мій погляд, найкраще співвідношення ціна-якість. Проїхав поки що 4000 км і все тішить, ніяких сторонніх звуків та шумів!</p><div class="who"><b>Сергій</b><span>Lexus LX</span></div></div>
+      <div class="review"><div class="stars"><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg><svg><use href="#i-star-fill"/></svg></div><p>Померла рульова рейка на Форд Фокусі 3. Оригінальна нова мені була не по кишені, обдзвонив усі компанії, вибір упав на Rest Avto. Вже 2 місяці політ нормальний.</p><div class="who"><b>Антон</b><span>Ford Focus 3</span></div></div>
+    </div>
+    <div class="social" style="margin-top:22px"><a href="https://www.facebook.com/restavtolviv" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/rest_avto_lviv/" target="_blank" rel="noopener">Instagram</a></div>
   </div>
 </section>
 
@@ -605,9 +658,9 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
       </div>
     </div>
     <div class="extra-grid">
-      <div class="extra"><img src="assets/img/nasos.webp" alt="Промивка системи ГПК"><div><h3>Промивка системи ГПК</h3><p>Очищення металевої стружки під тиском на спецобладнанні. Проста заміна оливи систему не чистить.</p><b>від 600 ₴</b></div></div>
-      <div class="extra"><img src="assets/img/kol.webp" alt="Ремонт кермової колонки"><div><h3>Ремонт кермових колонок</h3><p>Діагностика, відновлення шліцьового зʼєднання, заміна шестерень і втулок, ремонт корпусу.</p><b>від 1000 ₴</b></div></div>
-      <div class="extra"><img src="assets/img/kar.webp" alt="Ремонт кермового кардана"><div><h3>Ремонт кермового кардана</h3><p>Зняття, дефектовка, очищення, заміна хрестовини, підшипників і зубчастого зʼєднання.</p><b>від 800 ₴</b></div></div>
+      <div class="extra"><img src="assets/img/nasos.webp" alt="Промивка системи ГПК"><div><h3>Промивка системи ГПК</h3><p>Видалення металевої стружки із системи під тиском на спецобладнанні. Проста заміна оливи систему не чистить.</p><div class="row"><b>від 600 ₴</b><button class="btn btn-primary btn-sm" data-open="Промивка системи ГПК">Записатись</button></div></div></div>
+      <div class="extra"><img src="assets/img/155.png" alt="Ремонт кермової колонки"><div><h3>Ремонт кермових колонок</h3><p>Діагностика, відновлення шліцьового зʼєднання, заміна шестерень і втулок, ремонт корпусу.</p><div class="row"><b>від 1000 ₴</b><button class="btn btn-primary btn-sm" data-open="Ремонт кермової колонки">Записатись</button></div></div></div>
+      <div class="extra"><img src="assets/img/kar.webp" alt="Ремонт кермового кардана"><div><h3>Ремонт кермового кардана</h3><p>Зняття, дефектування, очищення, заміна хрестовини, підшипників і зубчастого зʼєднання.</p><div class="row"><b>від 800 ₴</b><button class="btn btn-primary btn-sm" data-open="Ремонт кермового кардана">Записатись</button></div></div></div>
     </div>
   </div>
 </section>
@@ -619,11 +672,11 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
       <div>
         <div class="eyebrow" style="color:var(--green)">Гарантія</div>
         <h2>Гарантія від 6 місяців на роботи і запчастини</h2>
-        <p>Даємо офіційну розширену гарантію, бо самі знімаємо, ремонтуємо і встановлюємо. Якщо щось піде не так, приїжджаєте і ми розбираємось за свій рахунок.</p>
+        <p>Даємо офіційну розширену гарантію, бо самі знімаємо, ремонтуємо і встановлюємо. Якщо щось піде не так, приїжджайте, усунемо за свій рахунок.</p>
         <button class="btn btn-primary" data-open="Записатись на діагностику">Записатись на діагностику</button>
       </div>
       <div class="phones">
-        <small>Зателефонуйте, підкажемо по вашому авто</small>
+        <small>Зателефонуйте, підкажемо щодо вашого авто</small>
         <a href="tel:+380635282915"><svg><use href="#i-phone"/></svg>(063) 528 29 15</a>
         <a href="tel:+380988996823"><svg><use href="#i-phone"/></svg>(098) 899 68 23</a>
         <small>Пн–Сб, 9:00–18:00</small>
@@ -642,12 +695,12 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
       </div>
     </div>
     <div class="faq-list">
-      <details class="faq"><summary>Чи можна їздити з пошкодженою рейкою?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Не варто. Рейка відповідає за керування, і її несправність напряму впливає на безпеку. Крім того, що довше їздити зі стуком або підтіканням, то дорожчий ремонт: знос переходить на вал і корпус.</div></details>
-      <details class="faq"><summary>Що вигідніше: ремонт чи нова рейка?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">У більшості випадків ремонт у 2–3 рази дешевший за нову оригінальну рейку і дає той самий результат: вузол відновлюється до заводських параметрів. Нову радимо лише коли корпус зруйнований і реставрація не має сенсу, про це скажемо чесно після дефектовки.</div></details>
-      <details class="faq"><summary>Скільки часу займає ремонт?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Механічні і гідравлічні рейки зазвичай віддаємо в день звернення. Електричні можуть зайняти 1–2 дні, якщо потрібен ремонт електрочастини. Точний термін називаємо після діагностики.</div></details>
+      <details class="faq"><summary>Чи можна їздити з пошкодженою рейкою?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Не варто. Рейка відповідає за керування, і її несправність безпосередньо впливає на безпеку. Крім того, що довше їздити зі стуком або підтіканням, то дорожчий ремонт: знос переходить на вал і корпус.</div></details>
+      <details class="faq"><summary>Що вигідніше: ремонт чи нова рейка?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">У більшості випадків ремонт у 2–3 рази дешевший за нову оригінальну рейку і дає той самий результат: вузол відновлюється до заводських параметрів. Нову радимо, лише коли корпус зруйнований і реставрація не має сенсу. Про це скажемо чесно після дефектування. Якщо ремонт не має сенсу, підберемо нову або відновлену рейку з нашого каталогу і поставимо її.</div></details>
+      <details class="faq"><summary>Скільки часу займає ремонт?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Механічні і гідравлічні рейки зазвичай віддаємо в день звернення. Електричні з ремонтом електрочастини можуть зайняти довше, точний термін називаємо після діагностики.</div></details>
       <details class="faq"><summary>Чи потрібно робити розвал-сходження після ремонту?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Так, після зняття і встановлення рейки кути коліс можуть змінитися. Розвал-сходження потрібен, щоб шини зношувались рівномірно і авто не тягнуло вбік.</div></details>
       <details class="faq"><summary>Що найчастіше ламається в рейці?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Сальники і ущільнення (звідси підтікання), втулки і підшипники (стук, люфт), знос зубчастої пари і вала. Усе це відновлюється: ми міняємо зношені елементи на оригінальні, шліфуємо вал і за потреби гільзуємо корпус.</div></details>
-      <details class="faq"><summary>Чи ремонтуєте рейки з інших міст?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Так. Надішліть рейку Новою поштою, ми продіагностуємо, узгодимо ціну, відремонтуємо і відправимо назад. Перед відправкою напишіть нам, підкажемо як запакувати.</div></details>
+      <details class="faq"><summary>Чи ремонтуєте рейки з інших міст?<i><svg><use href="#i-plus"/></svg></i></summary><div class="a">Так. Деталі приймаємо і відправляємо по всій Україні поштовими перевізниками: надішліть рейку, ми продіагностуємо, узгодимо ціну, відремонтуємо і відправимо назад. По Львову можемо викликати курʼєра, який забере деталь. Перед відправкою напишіть нам, підкажемо, як запакувати.</div></details>
     </div>
   </div>
 </section>
@@ -663,6 +716,7 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
         <div class="c-row"><div class="ic"><svg><use href="#i-pin"/></svg></div><div><small>Адреса</small><b>м. Львів, вул. Грунтова, 1б</b></div></div>
         <div class="c-row"><div class="ic"><svg><use href="#i-clock"/></svg></div><div><small>Графік</small><b>Пн–Сб, з 9:00 до 18:00</b></div></div>
         <div class="c-row"><div class="ic"><svg><use href="#i-phone"/></svg></div><div><small>Телефони</small><a href="tel:+380635282915"><b>(063) 528 29 15</b></a><a href="tel:+380988996823"><b>(098) 899 68 23</b></a></div></div>
+        <div class="c-row"><div class="ic"><svg><use href="#i-star"/></svg></div><div><small>Відгуки і соцмережі</small><div class="social"><a href="https://g.page/restavto?share" target="_blank" rel="noopener">Google</a><a href="https://www.facebook.com/restavtolviv" target="_blank" rel="noopener">Facebook</a><a href="https://www.instagram.com/rest_avto_lviv/" target="_blank" rel="noopener">Instagram</a></div></div></div>
         <div style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap">
           <button class="btn btn-primary" data-open="Записатись на діагностику">Записатись</button>
           <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&destination=%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%2C+%D0%B2%D1%83%D0%BB.+%D0%93%D1%80%D1%83%D0%BD%D1%82%D0%BE%D0%B2%D0%B0%2C+1%D0%B1" target="_blank" rel="noopener">Прокласти маршрут</a>
@@ -677,14 +731,14 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   <div class="wrap">
     <div class="grid">
       <div>
-        <div class="flogo"><img src="assets/img/logo.png" alt="Rest Avto"></div>
-        <p style="font-size:14px;max-width:320px">Ремонт і реставрація кермових рейок, насосів ЕГПК, кермових колонок у Львові. Власне СТО, спецобладнання, гарантія.</p>
+        <div class="flogo"><img src="assets/img/logo.png" width="112" height="38" alt="Rest Avto"></div>
+        <p style="font-size:14px;max-width:320px">Ремонт і реставрація кермових рейок, насосів ЕГПК, кермових колонок у Львові. Власна СТО, спецобладнання, гарантія.</p>
       </div>
       <div><h4>Послуги</h4><ul><li><a href="#services">Механічні рейки</a></li><li><a href="#services">Гідравлічні рейки</a></li><li><a href="#services">Електричні рейки</a></li><li><a href="#services">Насоси ЕГПК</a></li><li><a href="#extra">Колонки і кардани</a></li></ul></div>
-      <div><h4>Інформація</h4><ul><li><a href="#how">Як ми працюємо</a></li><li><a href="#works">Наші роботи</a></li><li><a href="#guarantee">Гарантія</a></li><li><a href="#faq">Питання і відповіді</a></li><li><a href="https://restavto.com.ua/" target="_blank" rel="noopener">Каталог запчастин</a></li></ul></div>
+      <div><h4>Інформація</h4><ul><li><a href="#how">Як ми працюємо</a></li><li><a href="#works">Наші роботи</a></li><li><a href="#guarantee">Гарантія</a></li><li><a href="#faq">Питання і відповіді</a></li><li><a href="#reviews">Відгуки</a></li><li><a href="https://restavto.com.ua/" target="_blank" rel="noopener">Каталог запчастин</a></li></ul></div>
       <div><h4>Контакти</h4><ul><li><a href="tel:+380635282915">(063) 528 29 15</a></li><li><a href="tel:+380988996823">(098) 899 68 23</a></li><li>Львів, вул. Грунтова, 1б</li><li>Пн–Сб, 9:00–18:00</li></ul></div>
     </div>
-    <div class="bottom"><span>© 2026 Rest Avto. Всі права захищені.</span><a href="#">Політика конфіденційності</a></div>
+    <div class="bottom"><span>© 2026 Rest Avto. Всі права захищені.</span><span>Політика конфіденційності</span></div>
   </div>
 </footer>
 
@@ -699,14 +753,14 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
     <button class="close" id="mclose" aria-label="Закрити">×</button>
     <form>
       <h3 id="mtitle">Записатись</h3>
-      <p class="sub">Залиште номер, передзвонимо протягом 15 хвилин у робочий час і підберемо зручний час.</p>
-      <div class="field"><label>Ваше імʼя</label><input type="text" placeholder="Як до вас звертатись"></div>
-      <div class="field"><label>Телефон</label><input type="tel" required placeholder="+380"></div>
-      <div class="field"><label>Авто і що турбує</label><textarea placeholder="Напр. Skoda Octavia 2014, стук при повороті"></textarea></div>
+      <p class="sub">Залиште номер, передзвонимо в робочі години і домовимось про зручний час візиту.</p>
+      <div class="field"><label for="m-name">Ваше імʼя</label><input id="m-name" name="name" type="text" autocomplete="name" placeholder="Як до вас звертатись"></div>
+      <div class="field"><label for="m-phone">Телефон</label><input id="m-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+380"></div>
+      <div class="field"><label for="m-note">Авто і що турбує</label><textarea id="m-note" name="note" placeholder="Напр. Skoda Octavia 2014, стук при повороті"></textarea></div>
       <button class="btn btn-primary" type="submit">Записатись</button>
-      <small>Або зателефонуйте: <a href="tel:+380635282915" style="color:var(--green-dark);font-weight:600">(063) 528 29 15</a></small>
+      <small>Або зателефонуйте: <a href="tel:+380635282915" style="color:var(--green-text);font-weight:600;white-space:nowrap">(063) 528 29 15</a></small>
     </form>
-    <div class="ok"><svg><use href="#i-check"/></svg><h3>Дякуємо, ви записані</h3><p>Передзвонимо протягом 15 хвилин у робочий час.</p></div>
+    <div class="ok"><svg><use href="#i-check"/></svg><h3>Дякуємо, заявку отримали</h3><p>Передзвонимо в робочі години і домовимось про візит.</p></div>
   </div>
 </div>
 

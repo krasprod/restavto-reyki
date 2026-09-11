@@ -297,9 +297,19 @@ footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:2
   .guarantee .phones a{font-size:24px}
   .faq .a{padding-right:0}
   .mbar{display:flex}
+  .mbar .btn{padding:13px 10px;font-size:15px;min-width:0}
+  .btn{white-space:normal;text-align:center}
+  .symptoms .box,.quote .box,.guarantee .box{padding:28px 20px}
+  .symptoms .box>*,.quote .box>*,.guarantee .box>*,.hero .wrap>*{min-width:0}
   body{padding-bottom:70px}
   .badge-float{padding:10px 14px}
   .badge-float b{font-size:14px}
+}
+@media (max-width:360px){
+  .mbar .btn svg{display:none}
+  .hero-facts{grid-template-columns:1fr 1fr;gap:8px}
+  .fact{padding:12px}
+  .fact b{font-size:18px}
 }
 </style>
 </head>
